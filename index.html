@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>My Portfolio</title>
+
+  <!-- Bootstrap CSS link-->
+  <link rel="stylesheet" href="bootstrap-5.3.8-dist/css/bootstrap.min.css">
+
+  <link rel="stylesheet" href="style.css">
+
+</head>
+
+<body>
+
+  <!-- Navigation -->
+  <nav class="navbar navbar-expand-lg navbar-dark bg-dark sticky-top">
+    <div class="container">
+      <a class="navbar-brand" href="#">MyPortfolio</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav ms-auto">
+          <li class="nav-item"><a class="nav-link" href="#about">About</a></li>
+          <li class="nav-item"><a class="nav-link" href="#projects">Projects</a></li>
+          <li class="nav-item"><a class="nav-link" href="#contact">Contact</a></li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Hero Section -->
+  <section class="hero d-flex align-items-center">
+    <div class="container text-center text-white">
+      <h1>Hello, I'm <strong>Owais</strong></h1>
+      <p class="lead">Web Developer | Designer | Programmer</p>
+      <a href="#projects" class="btn btn-light btn-lg mt-3">View My Work</a>
+    </div>
+  </section>
+
+  <!-- About Section -->
+  <section id="about" class="py-5">
+    <div class="container">
+      <h2 class="text-center mb-4">About Me</h2>
+      <div class="row align-items-center">
+        <div class="col-md-4 text-center" id="About">
+          <img src="images/about.jpg" alt="Profile" class="img-fluid" width="2000px">
+        </div>
+        <div class="col-md-8">
+          <p>
+            I am a passionate web developer specializing in modern responsive web design.
+            I enjoy building creative websites and user-friendly applications.
+          </p>
+          <p>
+            Skills: HTML, CSS, JavaScript, Bootstrap.
+          </p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Projects Section -->
+  <section id="projects" class="py-5 bg-light">
+    <div class="container">
+      <h2 class="text-center mb-4">Projects</h2>
+
+      <div class="row g-4">
+
+        <div class="col-md-4">
+          <div class="card project-card">
+            <img src="images/card1.jpg" class="card-img-top" alt="Project 1">
+            <div class="card-body">
+              <h5 class="card-title">Web Designing</h5>
+              <p class="card-text">
+                A clean and modern web design project focused on attractive layouts,
+                balanced colors, and a smooth user experience.
+              </p>
+              <a href="#" class="btn btn-primary">View</a>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-md-4">
+          <div class="card project-card">
+            <img src="images/card2.jpg" class="card-img-top" alt="Project 2">
+            <div class="card-body">
+              <h5 class="card-title">Web Development</h5>
+              <p class="card-text">
+                A responsive and modern web development project built with clean code,
+                smooth UI, and user-friendly functionality.
+              </p>
+              <a href="#" class="btn btn-primary">View</a>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-md-4">
+          <div class="card project-card">
+            <img src="images/card3.jpg" class="card-img-top" alt="Project 3">
+            <div class="card-body">
+              <h5 class="card-title">Graphic Designing </h5>
+              <p class="card-text">
+                A creative graphic design project focused on modern visuals,
+                balanced color combinations to deliver a
+                professional.
+              </p>
+              <a href="#" class="btn btn-primary">View</a>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- Contact Section -->
+  <section id="contact" class="py-5">
+    <div class="container">
+      <h2 class="text-center mb-4">Contact</h2>
+      <form class="mx-auto" style="max-width: 600px;">
+        <div class="mb-3">
+          <label class="form-label">Name</label>
+          <input type="text" class="form-control" placeholder="Your Name">
+        </div>
+        <div class="mb-3">
+          <label class="form-label">Email</label>
+          <input type="email" class="form-control" placeholder="Your Email">
+        </div>
+        <div class="mb-3">
+          <label class="form-label">Message</label>
+          <textarea class="form-control" rows="4" placeholder="Your Message"></textarea>
+        </div>
+        <button class="btn btn-primary w-100">Send</button>
+      </form>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="bg-dark text-light text-center py-3">
+    <p>© 2025 Owais. All Rights Reserved.</p>
+  </footer>
+
+  <!-- Bootstrap JS -->
+  <script src="bootstrap-5.3.8-dist/js/bootstrap.min.js"></script>
+
+</body>
+
+</html>
